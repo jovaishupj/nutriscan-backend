@@ -28,7 +28,10 @@ https://nutriscan-vision-ai.netlify.app
 4. Else → call AI → store → return
 
 ## 📸 Screenshots
-(Add 2–3 screenshots)
+<img width="1250" height="772" alt="image" src="https://github.com/user-attachments/assets/6c77d0c8-be4f-4bb2-8885-8c5b6e3dde43" />
+<img width="1563" height="896" alt="image" src="https://github.com/user-attachments/assets/c53076b1-33a0-4bbd-98c9-bb520df5cb7b" />
+<img width="1450" height="921" alt="image" src="https://github.com/user-attachments/assets/2f6e5c11-e957-4d81-b2db-213f8d346986" />
+
 
 ## 🚀 Run locally
 ```bash
