@@ -3,8 +3,8 @@ import app from "./app.js";
 import dotenv from "dotenv";
 dotenv.config();
 
-app.get("/api/test", (req, res) => {
-  res.send("Hello");
+app.get("/", (req, res) => {
+  res.send("NutriScan API is running");
 });
 const startServer = async () => {
   try {
