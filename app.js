@@ -7,7 +7,9 @@ import userRouter from './routes/userRoutes.js';
 const app=express();
 app.use(express.json());
 app.use(urlencoded({extended:true}));
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 app.use('/images',express.static("uploads"));
 app.use('/api/food',foodRoute);
 app.use('/api/user',userRouter);
